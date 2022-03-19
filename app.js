@@ -18,7 +18,7 @@ class Platform {
         //рандомится платформа исходя из размера грида минус ширина платформы
         // масрандом умноженное на 315 возвращает любое число от 0 до 315
         this.bottom = newPlatBottom
-        this.left = Math.random() * 315
+        this.left = Math.random() * 410
         this.visual = document.createElement('div')
         const visual = this.visual
         visual.classList.add('platform')

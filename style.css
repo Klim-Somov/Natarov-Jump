@@ -12,7 +12,7 @@ button {
 
 .grid {
   max-width: 500px;
-  height: 100vh;
+  height: 90vh;
   background-image: url("background.jpg");
   position: relative;
   background-size: cover;

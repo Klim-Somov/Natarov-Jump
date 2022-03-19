@@ -243,13 +243,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isGameOver) {
             createPlatforms()
             createDoodler()
-            setInterval(movePlatforms, 30)
-            jump(startPoint)
-            document.addEventListener('keyup', control)
-
-            document.querySelector('.btnLeft').addEventListener('click', moveLeft)
-            document.querySelector('.btnRight').addEventListener('click', moveRight)
-
+            setTimeout(() => {
+                setInterval(movePlatforms, 30)
+                jump(startPoint)
+                document.addEventListener('keyup', control)
+    
+                document.querySelector('.btnLeft').addEventListener('click', moveLeft)
+                document.querySelector('.btnRight').addEventListener('click', moveRight)
+    
+              
+            }, 3000);
+            
         }
     }
     start()

@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('remove')
             grid.removeChild(grid.firstChild)
         }
-        grid.innerHTML = "дорог снюхано: " + score
+        grid.innerHTML = "дорог снюхано: " + score + " обнови страницу"
         clearInterval(upTimerId)
         clearInterval(downTimerId)
         clearInterval(leftTimerId)
